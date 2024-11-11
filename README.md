@@ -1,15 +1,14 @@
 ### Task Requirements
 
-Complete the implementation of `App.js` to fulfill the following requirements:
+Complete the implementation of `App.js`:
 
-- Use the provided `Square` component to render all squares from the "colors" list.
-- **Click on Green Square**: Change the current square's color to "red" and add one new "green" square at the end of the list.
-- **Click on Red Square**: Remove the current square from the list.
+1. **Render Squares**:
+   - Use the `Square` component to display all squares from the "colors" list.
+
+2. **Square Click Functionality**:
+   - **Click Green**: Change the square's color to "red" and add a new "green" square at the end.
+   - **Click Red**: Remove the square.
 
 3. **Optional Features**:
-    - **Reset Button**: Add a button to reset the list of colors to its initial state.
-    - **Action History**: Render a history of user actions (clicks) in the `App` component. Choose your own display format for this history.
-
-#### Constraints:
-- Ensure that only the affected squares are re-rendered upon state changes to optimize performance.
-  **
+   - **Reset Button**: Add a button to reset the colors list to its initial state.
+   - **Action History**: Display a history of user clicks in the `App` component.
