@@ -1,0 +1,19 @@
+.square{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    
+    border-radius: 12px;
+    background-color: #dfdfdf;
+
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover{
+        transform: scale(1.04);
+    }
+
+    &:active{
+        transform: scale(0.94);
+    }
+}

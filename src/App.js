@@ -1,11 +1,5 @@
-
-const colors = [];
-
 function App() {
-  return (
-      <div>
-      </div>
-  )
+  return <div style={{ display: "flex" }}></div>;
 }
 
 export default App;
